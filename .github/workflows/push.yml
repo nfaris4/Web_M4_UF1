@@ -1,17 +1,18 @@
-name: Deploy de la paginaaaa
-on: 
+name: Deploy de la pagina
+on:
+  pull_request:
   push:
     branches:
       - main
 jobs:
   deploy-page:
     runs-on: ubuntu-latest
-    steps:
+    steps: 
       - name: Checkout
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v3
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-        branch: releases/v4
+          branch: releases/v4
           folder: .
