@@ -86,7 +86,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../images/img1.jpg");
+    ,url("./images/img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -104,7 +104,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("../images/fondo.jpg");
+    ,url("./images/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -180,15 +180,6 @@ footer .container{
     justify-content: center;
     align-items: flex-end;
 
-}
-.contact{
-    position: relative;
-    min-height: 100vh;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 @media (min-width: 720px){
