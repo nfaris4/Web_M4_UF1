@@ -13,7 +13,9 @@
 
   header{
     background-color: rgb(245,245,245);
+    width: 100%;
 }
+
 
 header .logo{
     margin: 0;
@@ -119,6 +121,10 @@ header a:hover{
     header nav{
         flex-direction: row;
         padding-bottom: 0;
-        padding-right: 20px;
+        padding-right: 208px;
     }
+
+    header .logo{
+      padding-left: 201px;
+  }
   }
