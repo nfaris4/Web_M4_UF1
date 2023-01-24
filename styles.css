@@ -182,6 +182,7 @@ footer .container{
 
 }
 
+
 @media (min-width: 720px){
     header{
         position: fixed;
@@ -261,5 +262,9 @@ footer .container{
 
     #nuestros-programas .carta{
         padding: 50px;
+    }
+
+    table {
+        width: 90%;
     }
 }
